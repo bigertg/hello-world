@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: example
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+        username: nacos
+        password: nacos
+        file-extension: yaml
+        namespace: 64a646e6-3a3b-4ed3-a922-66272dd8b3cc

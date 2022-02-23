@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-sentinel" />
+        <module name="alibaba-stock-seata" />
+        <module name="sentinel_demo" />
+        <module name="alibaba-order-seata" />
+        <module name="stock-seata" />
+        <module name="order-nacos" />
+        <module name="product-nacos" />
+        <module name="nacos-config" />
+        <module name="order-loadbalancer" />
+        <module name="config-test" />
+        <module name="stock-nacos" />
+        <module name="order-seata" />
+        <module name="order-openfeign-sentinel" />
+        <module name="order-openfeign" />
+        <module name="config-nacos" />
+        <module name="stock" />
+        <module name="gateway" />
+        <module name="order-ribbon" />
+        <module name="order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba-order-seata" target="1.8" />
+      <module name="alibaba-stock-seata" target="1.8" />
+      <module name="config-nacos" target="1.8" />
+      <module name="config-nacos2" target="1.8" />
+      <module name="config-test" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="nacos-config" target="1.8" />
+      <module name="order" target="1.8" />
+      <module name="order-loadbalancer" target="1.8" />
+      <module name="order-nacos" target="1.8" />
+      <module name="order-openfeign" target="1.8" />
+      <module name="order-openfeign-sentinel" target="1.8" />
+      <module name="order-ribbon" target="1.8" />
+      <module name="order-seata" target="1.8" />
+      <module name="order-sentinel" target="1.8" />
+      <module name="product-nacos" target="1.8" />
+      <module name="seata" target="1.8" />
+      <module name="sentinel_demo" target="1.8" />
+      <module name="springcloudalibaba" target="1.8" />
+      <module name="stock" target="1.8" />
+      <module name="stock-nacos" target="1.8" />
+      <module name="stock-seata" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-test" options="" />
+      <module name="nacos-config" options="" />
+      <module name="sentinel_demo" options="-parameters" />
+    </option>
+  </component>
+</project>
