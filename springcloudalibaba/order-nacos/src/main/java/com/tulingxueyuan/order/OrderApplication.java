@@ -16,7 +16,7 @@ import java.util.concurrent.TimeUnit;
  * @Slogan 致敬大师，致敬未来的你
  */
 @SpringBootApplication
-//@EnableDiscoveryClient
+@EnableDiscoveryClient
 public class OrderApplication {
 
     public static void main(String[] args) {
