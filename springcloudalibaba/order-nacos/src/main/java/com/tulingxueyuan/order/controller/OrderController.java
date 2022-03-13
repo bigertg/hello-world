@@ -1,10 +1,7 @@
 package com.tulingxueyuan.order.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.concurrent.TimeUnit;
@@ -80,6 +77,12 @@ public class OrderController {
 
         System.out.println("正常访问");
         return "正常访问";
+    }
+
+    @GetMapping("/test")
+    public String getHa() {
+        String forObject = restTemplate.getForObject("http://product-service/product/5", String.class);
+        return  forObject;
     }
 
 
