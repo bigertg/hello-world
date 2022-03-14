@@ -1,12 +1,9 @@
-package com.tulingxueyuan.product.controller;
+package com.tulingxueyuan.productnacos2.controller;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.web.server.LocalServerPort;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.concurrent.TimeUnit;
 
 /***
  * @Author 徐庶   QQ:1092002729

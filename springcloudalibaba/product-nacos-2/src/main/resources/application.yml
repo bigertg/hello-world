@@ -1,0 +1,13 @@
+
+server:
+  port: 8024
+# 应用名称 （nacos会将该名称当做服务名称）
+spring:
+  application:
+    name: product-service
+  cloud:
+    nacos:
+      server-addr: 47.98.207.91:8848
+      discovery:
+        username: nacos
+        password: nacos

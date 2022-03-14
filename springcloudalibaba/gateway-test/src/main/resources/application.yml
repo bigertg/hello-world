@@ -1,0 +1,16 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+    nacos:
+      discovery:
+        server-addr: 47.98.207.91:8848
+        username: nacos
+        password: nacos
+
